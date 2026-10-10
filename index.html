@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Quova Hub — discover developer tools, manage installers, and prepare your toolkit for offline use."
+  >
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="color-scheme" content="dark">
+
+  <title>Quova Hub — Your Developer Toolkit</title>
+
+  <link rel="manifest" href="./manifest.json">
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bungee&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  >
+</head>
+
+<body>
+  <a class="skip-link" href="#toolCatalog">
+    Skip to developer tools
+  </a>
+
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Quova Hub home">
+      <span class="brand-mark" aria-hidden="true">Q</span>
+      <span class="brand-name">QUOVA HUB</span>
+    </a>
+
+    <nav class="header-actions" aria-label="Main navigation">
+      <span
+        class="connection-status"
+        id="connectionStatus"
+        role="status"
+        aria-live="polite"
+      >
+        <span class="status-dot" aria-hidden="true"></span>
+        <span id="connectionText">Checking connection...</span>
+      </span>
+
+      <button
+        class="icon-button"
+        id="settingsButton"
+        type="button"
+        aria-label="Settings"
+        title="Settings"
+      >
+        <i class="fa-solid fa-gear" aria-hidden="true"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main id="mainContent">
+    <section class="hero" aria-labelledby="heroTitle">
+      <p class="eyebrow">
+        <span class="eyebrow-line" aria-hidden="true"></span>
+        THE DEVELOPER'S TOOLKIT
+      </p>
+
+      <h1 id="heroTitle">
+        BUILD MORE.<br>
+        <span>DEPEND LESS.</span>
+      </h1>
+
+      <p class="hero-description">
+        Discover the tools you need. Prepare your downloads.
+        Keep your development journey moving, even offline.
+      </p>
+
+      <a class="primary-button" href="#toolCatalog">
+        Explore tools
+        <i class="fa-solid fa-arrow-down" aria-hidden="true"></i>
+      </a>
+
+      <div class="hero-note">
+        <i class="fa-solid fa-wifi" aria-hidden="true"></i>
+        ONLINE DISCOVERY. OFFLINE READINESS.
+      </div>
+    </section>
+
+    <section
+      class="catalog-section"
+      id="toolCatalog"
+      aria-labelledby="catalogTitle"
+    >
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">YOUR WORKSPACE</p>
+
+          <h2 id="catalogTitle">
+            Developer tools<span class="heading-period">.</span>
+          </h2>
+
+          <p class="section-description">
+            Find your next essential tool in one place.
+          </p>
+        </div>
+
+        <span
+          class="tool-count"
+          id="toolCount"
+          aria-live="polite"
+        >
+          Loading tools...
+        </span>
+      </div>
+
+      <div class="catalog-controls">
+        <label class="search-box" for="searchInput">
+          <i
+            class="fa-solid fa-magnifying-glass"
+            aria-hidden="true"
+          ></i>
+
+          <input
+            id="searchInput"
+            type="search"
+            placeholder="Search tools, languages, categories..."
+            autocomplete="off"
+            aria-label="Search developer tools"
+          >
+
+          <kbd aria-hidden="true">Ctrl K</kbd>
+        </label>
+
+        <button
+          class="filter-button"
+          id="filterButton"
+          type="button"
+          aria-label="Browse tool categories"
+        >
+          <i class="fa-solid fa-sliders" aria-hidden="true"></i>
+          <span>Categories</span>
+        </button>
+      </div>
+
+      <div
+        class="category-list"
+        id="categoryList"
+        aria-label="Filter tools by category"
+      >
+        <button
+          class="category-chip active"
+          data-category="all"
+          type="button"
+          aria-pressed="true"
+        >
+          All tools
+        </button>
+      </div>
+
+      <div
+        class="catalog-message"
+        id="catalogMessage"
+        role="status"
+        aria-live="polite"
+      >
+        Preparing your developer toolkit...
+      </div>
+
+      <div
+        class="tool-grid"
+        id="toolGrid"
+        aria-label="Developer tool catalog"
+      ></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="./" aria-label="Quova Hub home">
+      <span class="brand-mark" aria-hidden="true">Q</span>
+      <span class="brand-name">QUOVA HUB</span>
+    </a>
+
+    <p>Made for developers. Built for flexibility.</p>
+
+    <span class="footer-version">
+      A DEVELOPER TOOLKIT PROJECT
+    </span>
+  </footer>
+
+  <noscript>
+    <p class="noscript-message">
+      Please enable JavaScript to browse the Quova Hub catalog.
+    </p>
+  </noscript>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
