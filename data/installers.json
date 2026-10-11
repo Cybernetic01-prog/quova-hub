@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 2,
+  "application": "Quova Hub",
+  "platform": "windows",
+  "architecture": "x64",
+  "installers": [
+    {
+      "id": "vscode",
+      "name": "Visual Studio Code",
+      "version": "1.140.0",
+      "fileName": "VSCodeUserSetup-x64-1.140.0.exe",
+      "relativePath": "./installers/VSCodeUserSetup-x64-1.140.0.exe",
+      "platform": "windows",
+      "architecture": "x64",
+      "downloadType": "direct",
+      "sourceUrl": "https://code.visualstudio.com/",
+      "sha256": "B66449D7ACF503F556B5A50593717B0092F48DF1F62CE38A7DBA5B93DA0B425E",
+      "checksumAlgorithm": "SHA256",
+      "checksumVerification": {
+        "status": "matched",
+        "independentlyVerified": true,
+        "method": "Compared with publisher checksum",
+        "note": "User confirmed checksum match against the reference source."
+      },
+      "size": 244372816,
+      "offlineAvailable": true,
+      "verified": true,
+      "verificationStatus": "verified",
+      "verificationMethod": ["windows_authenticode", "sha256"],
+      "digitalSignature": {
+        "status": "valid",
+        "signer": "Microsoft Corporation",
+        "issuer": "Microsoft Code Signing PCA 2024",
+        "thumbprint": "AB172913A2960A224809EE8A0C371CD47A079B72",
+        "verificationTool": "PowerShell Get-AuthenticodeSignature",
+        "verificationResult": "Signature verified.",
+        "checkedBy": "user",
+        "checkedAt": "2026-10-10",
+        "certificateNotBefore": "2026-04-16T19:59:43",
+        "certificateNotAfter": "2027-04-15T19:59:43"
+      },
+      "noticesIncluded": false
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "version": "3.15.0",
+      "fileName": "python-3.15.0-amd64.exe",
+      "relativePath": "./installers/python-3.15.0-amd64.exe",
+      "platform": "windows",
+      "architecture": "x64",
+      "downloadType": "direct",
+      "sourceUrl": "https://www.python.org/downloads/windows/",
+      "sha256": "67D9A63EB145A34AA939F02EADBF8C57F21FCDD6DECB901CCAC578D2D1F01D6F",
+      "checksumAlgorithm": "SHA256",
+      "checksumVerification": {
+        "status": "matched",
+        "independentlyVerified": true,
+        "method": "Publisher checksum comparison",
+        "note": "Checksum match recorded from prior verification."
+      },
+      "size": 45383680,
+      "offlineAvailable": true,
+      "verified": true,
+      "verificationStatus": "verified",
+      "verificationMethod": ["windows_authenticode", "sha256"],
+      "digitalSignature": {
+        "status": "valid",
+        "signer": "Python Software Foundation",
+        "verificationTool": "PowerShell Get-AuthenticodeSignature",
+        "checkedBy": "user",
+        "checkedAt": "2026-10-10"
+      },
+      "noticesIncluded": false
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "version": "2.56.0.2",
+      "fileName": "Git-2.56.0.2-64-bit.exe",
+      "relativePath": "./installers/Git-2.56.0.2-64-bit.exe",
+      "platform": "windows",
+      "architecture": "x64",
+      "downloadType": "direct",
+      "sourceUrl": "https://git-scm.com/download/win",
+      "sha256": "52188F917B378F00C70EC136BCF090005F30D44FBC4EBA0BCE759CC6592D60F6",
+      "checksumAlgorithm": "SHA256",
+      "checksumVerification": {
+        "status": "matched",
+        "independentlyVerified": true,
+        "method": "Publisher checksum comparison",
+        "note": "Checksum match recorded as confirmed by user."
+      },
+      "size": 66763664,
+      "offlineAvailable": true,
+      "verified": true,
+      "verificationStatus": "verified",
+      "verificationMethod": ["windows_authenticode", "sha256"],
+      "digitalSignature": {
+        "status": "valid",
+        "signer": "Johannes Schindelin",
+        "verificationTool": "PowerShell Get-AuthenticodeSignature",
+        "checkedBy": "user",
+        "checkedAt": "2026-10-10"
+      },
+      "noticesIncluded": false
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "version": "24.21.0",
+      "fileName": "node-v24.21.0-x64.msi",
+      "relativePath": "./installers/node-v24.21.0-x64.msi",
+      "platform": "windows",
+      "architecture": "x64",
+      "downloadType": "direct",
+      "sourceUrl": "https://nodejs.org/en/download",
+      "sha256": "BB0EAEE134F9357F22AEA915EE793343E627AEFC1E66488164BAC6915BCE2CAC",
+      "checksumAlgorithm": "SHA256",
+      "checksumVerification": {
+        "status": "matched",
+        "independentlyVerified": true,
+        "method": "Publisher checksum comparison",
+        "note": "Checksum match recorded from prior verification."
+      },
+      "size": 33230848,
+      "offlineAvailable": true,
+      "verified": true,
+      "verificationStatus": "verified",
+      "verificationMethod": ["windows_authenticode", "sha256"],
+      "digitalSignature": {
+        "status": "valid",
+        "signer": "OpenJS Foundation",
+        "verificationTool": "PowerShell Get-AuthenticodeSignature",
+        "checkedBy": "user",
+        "checkedAt": "2026-10-10"
+      },
+      "noticesIncluded": false
+    },
+    {
+      "id": "temurin-jdk",
+      "name": "Eclipse Temurin JDK",
+      "version": "25.0.4+1",
+      "fileName": "OpenJDK25U-jdk_x64_windows_hotspot_25.0.4.1_1.msi",
+      "relativePath": "./installers/OpenJDK25U-jdk_x64_windows_hotspot_25.0.4.1_1.msi",
+      "platform": "windows",
+      "architecture": "x64",
+      "downloadType": "direct",
+      "sourceUrl": "https://adoptium.net/temurin/releases/",
+      "sha256": "517B3590BE43120C34C3891D09C97A1EDDC12DA982208C4F5ADF1BDC1B5E3F15",
+      "checksumAlgorithm": "SHA256",
+      "checksumVerification": {
+        "status": "matched",
+        "independentlyVerified": true,
+        "method": "Publisher checksum comparison",
+        "note": "Checksum match recorded from prior verification."
+      },
+      "size": 115998720,
+      "offlineAvailable": true,
+      "verified": true,
+      "verificationStatus": "verified",
+      "verificationMethod": ["windows_authenticode", "sha256"],
+      "digitalSignature": {
+        "status": "valid",
+        "signer": "Eclipse Foundation",
+        "verificationTool": "PowerShell Get-AuthenticodeSignature",
+        "checkedBy": "user",
+        "checkedAt": "2026-10-10"
+      },
+      "noticesIncluded": false
+    },
+    {
+      "id": "github-cli",
+      "name": "GitHub CLI",
+      "version": "2.102.0",
+      "fileName": "gh_2.102.0_windows_amd64.msi",
+      "relativePath": "./installers/gh_2.102.0_windows_amd64.msi",
+      "platform": "windows",
+      "architecture": "x64",
+      "downloadType": "direct",
+      "sourceUrl": "https://cli.github.com/",
+      "sha256": "7944B579D76359E5B859A263BF63583E271AE3FBD427AE46E133C1F348B46371",
+      "checksumAlgorithm": "SHA256",
+      "checksumVerification": {
+        "status": "matched",
+        "independentlyVerified": true,
+        "method": "Compared with official release checksums",
+        "note": "User confirmed checksum match against the release checksums file."
+      },
+      "size": 15757312,
+      "offlineAvailable": true,
+      "verified": true,
+      "verificationStatus": "verified",
+      "verificationMethod": ["windows_authenticode", "sha256"],
+      "digitalSignature": {
+        "status": "valid",
+        "signer": "GitHub, Inc.",
+        "verificationTool": "PowerShell Get-AuthenticodeSignature",
+        "checkedBy": "user",
+        "checkedAt": "2026-10-10"
+      },
+      "noticesIncluded": false
+    },
+    {
+      "id": "powershell",
+      "name": "PowerShell",
+      "version": "7.6.6",
+      "fileName": "PowerShell-7.6.6-win-x64.msi",
+      "relativePath": "./installers/PowerShell-7.6.6-win-x64.msi",
+      "platform": "windows",
+      "architecture": "x64",
+      "downloadType": "direct",
+      "sourceUrl": "https://github.com/PowerShell/PowerShell/releases",
+      "sha256": "958838FF55091E1C8705D89EFED0CC7E8245A3A6EF6C0CCFAE20015227108AD8",
+      "checksumAlgorithm": "SHA256",
+      "checksumVerification": {
+        "status": "matched",
+        "independentlyVerified": true,
+        "method": "Publisher checksum comparison",
+        "note": "Checksum match recorded from prior verification."
+      },
+      "size": 117477376,
+      "offlineAvailable": true,
+      "verified": true,
+      "verificationStatus": "verified",
+      "verificationMethod": ["windows_authenticode", "sha256"],
+      "digitalSignature": {
+        "status": "valid",
+        "signer": "Microsoft Corporation",
+        "verificationTool": "PowerShell Get-AuthenticodeSignature",
+        "checkedBy": "user",
+        "checkedAt": "2026-10-10"
+      },
+      "noticesIncluded": false
+    },
+    {
+      "id": "7zip",
+      "name": "7-Zip",
+      "version": "26.04",
+      "fileName": "7z2604-x64.exe",
+      "relativePath": "./installers/7z2604-x64.exe",
+      "platform": "windows",
+      "architecture": "x64",
+      "downloadType": "direct",
+      "sourceUrl": "https://www.7-zip.org/download.html",
+      "sha256": "D54BF805F9F3704D1E8DB2FA3498AE7EF2DF0312B40B558E7C71C734430A665D",
+      "checksumAlgorithm": "SHA256",
+      "checksumVerification": {
+        "status": "matched",
+        "independentlyVerified": true,
+        "method": "Compared with publisher checksum",
+        "note": "User confirmed checksum match against the official 7-Zip website."
+      },
+      "size": 1664082,
+      "offlineAvailable": true,
+      "verified": true,
+      "verificationStatus": "verified_checksum_unsigned",
+      "verificationMethod": ["sha256"],
+      "digitalSignature": {
+        "status": "not_signed",
+        "signer": null,
+        "verificationTool": "PowerShell Get-AuthenticodeSignature",
+        "verificationResult": "Windows reported NotSigned.",
+        "checkedBy": "user",
+        "checkedAt": "2026-10-10"
+      },
+      "noticesIncluded": false
+    }
+  ]
+}

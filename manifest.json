@@ -1,0 +1,21 @@
+
+{
+  "id": "./",
+  "name": "Quova Hub — Developer Toolkit",
+  "short_name": "Quova",
+  "description": "Discover, download, and organize essential developer tools, with offline-ready installer support.",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#090909",
+  "theme_color": "#090909",
+  "categories": [
+    "developer",
+    "utilities",
+    "education"
+  ],
+  "prefer_related_applications": false,
+  "icons": []
+}
